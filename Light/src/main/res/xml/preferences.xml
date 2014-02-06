@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="@string/pref_update_system_key"
+        android:title="@string/pref_update_system_title"
+        android:summary="@string/pref_update_system_desc"
+        android:defaultValue="true" />
+
+    <CheckBoxPreference
+        android:key="@string/pref_remember_brightness_key"
+        android:title="@string/pref_update_system_title"
+        android:summary="@string/pref_update_system_desc"
+        android:defaultValue="true" />
+
+    <ListPreference
+        android:key="@string/pref_fav_screen_key"
+        android:title="@string/pref_fav_screen_title"
+        android:summary="@string/pref_fav_screen_desc"
+        android:entryValues="@array/pref_fav_screen_keys"
+        android:entries="@array/pref_fav_screen_vals"
+        android:defaultValue="@string/pref_fav_screen_default"/>
+
+</PreferenceScreen>

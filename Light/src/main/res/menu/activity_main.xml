@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.nickstephen.lighter.MainActivity" >
+    <item
+        android:id="@+id/settings"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="@string/settings"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/other_apps"
+        android:icon="@android:drawable/ic_menu_view"
+        android:title="@string/other_apps"
+        android:orderInCategory="2"
+        app:showAsAction="withText|never" />
+</menu>

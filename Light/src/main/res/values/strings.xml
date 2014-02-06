@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Let There Be Light!</string>
+    <string name="title_section1">Torch</string>
+    <string name="title_section2">Screen</string>
+    <string name="settings">Settings</string>
+    <string name="screen_on">Keep Screen On</string>
+    <string name="torch_alert">Error loading torch</string>
+    <string name="brightness">Screen Brightness</string>
+    <string name="other_apps">My Other Apps</string>
+
+    <!-- Preferences -->
+    <string name="pref_update_system_key">pref_update_system_key</string>
+    <string name="pref_update_system_title">Manage System Brightness</string>
+    <string name="pref_update_system_desc">Change system brightness as well as the brightness in the app</string>
+
+    <string name="pref_remember_brightness_key">pref_remember_brightness_key</string>
+    <string name="pref_remember_brightness_title">Remember Brightness</string>
+    <string name="pref_remember_brightness_desc">Remember and re-apply brightness</string>
+
+    <string name="pref_fav_screen_key">pref_fav_screen_key</string>
+    <string name="pref_fav_screen_title">Favourite Screen</string>
+    <string name="pref_fav_screen_desc">The screen to go to on startup</string>
+    <string name="pref_fav_screen_dialog_mesg">Choose the screen to go on startup</string>
+    <string name="pref_fav_screen_default">torch</string>
+
+    <string-array name="pref_fav_screen_keys">
+        <item>torch</item>
+        <item>screen</item>
+    </string-array>
+
+    <string-array name="pref_fav_screen_vals">
+        <item>Torch</item>
+        <item>Screen</item>
+    </string-array>
+
+</resources>
