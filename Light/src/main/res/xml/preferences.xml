@@ -9,8 +9,8 @@
 
     <CheckBoxPreference
         android:key="@string/pref_remember_brightness_key"
-        android:title="@string/pref_update_system_title"
-        android:summary="@string/pref_update_system_desc"
+        android:title="@string/pref_remember_brightness_title"
+        android:summary="@string/pref_remember_brightness_desc"
         android:defaultValue="true" />
 
     <ListPreference
